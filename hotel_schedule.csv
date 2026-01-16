@@ -1,0 +1,122 @@
+Date,Day_Name,Activity_Name,Type,Start_Time,Tags,Price,Min_Age,Target_Gender
+2026-01-15,Thursday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-15,Thursday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-15,Thursday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-15,Thursday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-01-15,Thursday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-01-16,Friday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-16,Friday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-16,Friday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-01-16,Friday,Whiskey Tasting,Event,20:00,"Luxury, Alcohol",300 AED,21,Any
+2026-01-17,Saturday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-17,Saturday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-17,Saturday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-01-17,Saturday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-01-17,Saturday,Scuba Diving Basics,Package,08:00,Adventure,400 AED,15,Any
+2026-01-18,Sunday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-18,Sunday,Sunday Grand Brunch,Event,11:00,"Food, Family",250 AED,0,Any
+2026-01-18,Sunday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-01-19,Monday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-19,Monday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-19,Monday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-01-20,Tuesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-20,Tuesday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-20,Tuesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-20,Tuesday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-01-20,Tuesday,Ladies Spa Afternoon,Service,13:00,"Wellness, Spa",200 AED,18,Female
+2026-01-21,Wednesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-21,Wednesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-21,Wednesday,Cooking Masterclass,Activity,14:00,"Food, Culture",150 AED,12,Any
+2026-01-22,Thursday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-22,Thursday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-22,Thursday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-22,Thursday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-01-22,Thursday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-01-23,Friday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-23,Friday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-23,Friday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-01-23,Friday,Whiskey Tasting,Event,20:00,"Luxury, Alcohol",300 AED,21,Any
+2026-01-24,Saturday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-24,Saturday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-24,Saturday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-01-24,Saturday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-01-24,Saturday,Scuba Diving Basics,Package,08:00,Adventure,400 AED,15,Any
+2026-01-25,Sunday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-25,Sunday,Sunday Grand Brunch,Event,11:00,"Food, Family",250 AED,0,Any
+2026-01-25,Sunday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-01-26,Monday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-26,Monday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-26,Monday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-01-27,Tuesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-27,Tuesday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-27,Tuesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-27,Tuesday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-01-27,Tuesday,Ladies Spa Afternoon,Service,13:00,"Wellness, Spa",200 AED,18,Female
+2026-01-28,Wednesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-28,Wednesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-28,Wednesday,Cooking Masterclass,Activity,14:00,"Food, Culture",150 AED,12,Any
+2026-01-29,Thursday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-29,Thursday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-29,Thursday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-29,Thursday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-01-29,Thursday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-01-30,Friday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-30,Friday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-01-30,Friday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-01-30,Friday,Whiskey Tasting,Event,20:00,"Luxury, Alcohol",300 AED,21,Any
+2026-01-31,Saturday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-01-31,Saturday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-01-31,Saturday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-01-31,Saturday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-01-31,Saturday,Scuba Diving Basics,Package,08:00,Adventure,400 AED,15,Any
+2026-02-01,Sunday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-01,Sunday,Sunday Grand Brunch,Event,11:00,"Food, Family",250 AED,0,Any
+2026-02-01,Sunday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-02-02,Monday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-02,Monday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-02,Monday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-02-03,Tuesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-03,Tuesday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-02-03,Tuesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-03,Tuesday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-02-03,Tuesday,Ladies Spa Afternoon,Service,13:00,"Wellness, Spa",200 AED,18,Female
+2026-02-04,Wednesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-04,Wednesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-04,Wednesday,Cooking Masterclass,Activity,14:00,"Food, Culture",150 AED,12,Any
+2026-02-05,Thursday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-05,Thursday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-02-05,Thursday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-05,Thursday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-02-05,Thursday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-02-06,Friday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-06,Friday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-06,Friday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-02-06,Friday,Whiskey Tasting,Event,20:00,"Luxury, Alcohol",300 AED,21,Any
+2026-02-07,Saturday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-07,Saturday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-02-07,Saturday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-02-07,Saturday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-02-07,Saturday,Scuba Diving Basics,Package,08:00,Adventure,400 AED,15,Any
+2026-02-08,Sunday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-08,Sunday,Sunday Grand Brunch,Event,11:00,"Food, Family",250 AED,0,Any
+2026-02-08,Sunday,Kids Treasure Hunt,Activity,10:00,"Family, Kids",Free,4,Any
+2026-02-09,Monday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-09,Monday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-09,Monday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-02-10,Tuesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-10,Tuesday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-02-10,Tuesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-10,Tuesday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-02-10,Tuesday,Ladies Spa Afternoon,Service,13:00,"Wellness, Spa",200 AED,18,Female
+2026-02-11,Wednesday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-11,Wednesday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-11,Wednesday,Cooking Masterclass,Activity,14:00,"Food, Culture",150 AED,12,Any
+2026-02-12,Thursday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-12,Thursday,Aqua Aerobics,Activity,09:00,"Wellness, Pool",Free,12,Any
+2026-02-12,Thursday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-12,Thursday,Local History Tour,Activity,09:00,Sightseeing,80 AED,10,Any
+2026-02-12,Thursday,Cinema Under Stars,Event,20:00,"Relax, Family",Free,0,Any
+2026-02-13,Friday,Sunrise Yoga,Activity,07:00,Wellness,50 AED,16,Any
+2026-02-13,Friday,Happy Hour Mixer,Event,17:00,"Social, Alcohol",Pay as you go,18,Any
+2026-02-13,Friday,Rooftop DJ Party,Event,21:00,"Nightlife, Music",100 AED (Entry),18,Any
+2026-02-13,Friday,Whiskey Tasting,Event,20:00,"Luxury, Alcohol",300 AED,21,Any

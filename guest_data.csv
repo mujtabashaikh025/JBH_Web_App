@@ -1,0 +1,11 @@
+Guest_ID,Last_Name,Primary_Age,Primary_Gender,Room_Number,Duration_Stay,Group_Type,Family_Members,Check_In,Check_Out
+G-101,Smith,29,Male,305,2,Individual,[],2026-01-15 14:00,2026-01-17 11:00
+G-102,Johnson,34,Female,402,5,Family,"[{'Age': 8, 'Gender': 'Female', 'Role': 'Child'}, {'Age': 36, 'Gender': 'Male', 'Role': 'Spouse'}]",2026-01-14 14:00,2026-01-19 11:00
+G-103,Williams,22,Male,101,1,Individual,[],2026-01-15 14:00,2026-01-16 11:00
+G-104,Brown,60,Male,500,7,Couple,"[{'Age': 58, 'Gender': 'Female', 'Role': 'Spouse'}]",2026-01-13 14:00,2026-01-20 11:00
+G-105,Jones,45,Female,205,3,Family,"[{'Age': 15, 'Gender': 'Male', 'Role': 'Teen'}, {'Age': 17, 'Gender': 'Female', 'Role': 'Teen'}]",2026-01-14 14:00,2026-01-17 11:00
+G-106,Garcia,72,Female,105,10,Couple,"[{'Age': 75, 'Gender': 'Male', 'Role': 'Spouse'}]",2026-01-12 14:00,2026-01-22 11:00
+G-107,Miller,31,Male,601,4,Couple,"[{'Age': 29, 'Gender': 'Female', 'Role': 'Spouse'}]",2026-01-15 14:00,2026-01-19 11:00
+G-108,Davis,26,Female,303,2,Friends,"[{'Age': 27, 'Gender': 'Female', 'Role': 'Friend'}]",2026-01-15 14:00,2026-01-17 11:00
+G-109,Rodriguez,40,Male,404,6,Family,"[{'Age': 10, 'Gender': 'Male', 'Role': 'Child'}, {'Age': 12, 'Gender': 'Female', 'Role': 'Child'}]",2026-01-16 14:00,2026-01-22 11:00
+G-110,Martinez,50,Female,505,3,Individual,[],2026-01-14 14:00,2026-01-17 11:00

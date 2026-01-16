@@ -139,12 +139,12 @@ def send_booking_confirmation_email(guest_info, activity, ref_number):
     # Force reload env to pick up changes without restarting server entirely if possible
     load_dotenv(override=True)
     
-    sender_email = os.getenv("SMTP_EMAIL")
-    password_raw = os.getenv("SMTP_PASSWORD", "")
+    sender_email = st.secrets["SMTP_EMAIL"]
+    password_raw = st.secrets["SMTP_PASSWORD", ""]
     sender_password = password_raw.replace(" ", "") # Remove spaces from App Password
     
-    smtp_server = os.getenv("SMTP_SERVER", "smtp.gmail.com")
-    smtp_port = int(os.getenv("SMTP_PORT", 587))
+    smtp_server = st.secrets["SMTP_SERVER", "smtp.gmail.com"]
+    smtp_port = int(st.secrets["SMTP_PORT", 587])
     receiver_email = "mujtabashaikh025@gmail.com"
 
     # Construct Message

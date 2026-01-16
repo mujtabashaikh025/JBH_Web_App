@@ -5,25 +5,25 @@ import datetime
 import json
 import re
 from google import genai
-#from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import random
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Load environment variables
-#load_dotenv()
+# load_dotenv()
 
 # Configure page
 st.set_page_config(page_title="Hotel Concierge", page_icon="🏨")
 
 # Initialize Gemini
-api_key = st.secrets["GEMINI_API_KEY"]
+api_key = st.secrets.get("GEMINI_API_KEY")
 client = None
 if api_key:
     client = genai.Client(api_key=api_key)
 else:
-    st.error("GEMINI_API_KEY not found. Please check your .env file.")
+    st.error("GEMINI_API_KEY not found. Please check your secrets.toml file.")
 
 # ==========================================
 # DATA LOADING
@@ -137,7 +137,7 @@ def get_activity_image(activity_name):
 def send_booking_confirmation_email(guest_info, activity, ref_number):
     """Send booking details to admin email."""
     # Force reload env to pick up changes without restarting server entirely if possible
-    #load_dotenv(override=True)
+    # load_dotenv(override=True)
     
     sender_email = st.secrets.get("SMTP_EMAIL")
     password_raw = st.secrets.get("SMTP_PASSWORD", "")
@@ -145,7 +145,7 @@ def send_booking_confirmation_email(guest_info, activity, ref_number):
     
     smtp_server = st.secrets.get("SMTP_SERVER", "smtp.gmail.com")
     smtp_port = int(st.secrets.get("SMTP_PORT", 587))
-    receiver_email = "mujtabashaikh025@gmail.com""mujtabashaikh025@gmail.com"
+    receiver_email = "mujtabashaikh025@gmail.com"
 
     # Construct Message
     subject = f"New Booking: {guest_info.get('Last_Name')} - Room {guest_info.get('Room_Number')}"
@@ -360,11 +360,10 @@ else:
                         if success:
                             st.toast("Confirmation email sent!", icon="📧")
                         else:
-                            # Log failure
+                            # Log failure to chat history so it persists
+                            error_msg = f"⚠️ **Booking Confirmed locally, but Email Failed.**\nError: `{status}`"
+                            st.session_state.messages.append({"role": "assistant", "content": error_msg})
                             print(f"Email failed: {status}") 
-                            st.error(f"Email Failed: {status}") # Show error to user for debugging
-                            if "simulated" in status:
-                                st.info("Check your .env file for SMTP credentials.")
 
                         st.rerun()
             else:

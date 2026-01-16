@@ -145,8 +145,7 @@ def send_booking_confirmation_email(guest_info, activity, ref_number):
     
     smtp_server = st.secrets.get("SMTP_SERVER", "smtp.gmail.com")
     smtp_port = int(st.secrets.get("SMTP_PORT", 587))
-    receiver_email = "mujtabashaikh025@gmail.com"
-
+    receiver_email = "fayas@innobaytsolutions.com"
     # Construct Message
     subject = f"New Booking: {guest_info.get('Last_Name')} - Room {guest_info.get('Room_Number')}"
     

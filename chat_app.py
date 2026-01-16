@@ -5,14 +5,14 @@ import datetime
 import json
 import re
 from google import genai
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import random
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Configure page
 st.set_page_config(page_title="Hotel Concierge", page_icon="🏨")
@@ -137,15 +137,15 @@ def get_activity_image(activity_name):
 def send_booking_confirmation_email(guest_info, activity, ref_number):
     """Send booking details to admin email."""
     # Force reload env to pick up changes without restarting server entirely if possible
-    load_dotenv(override=True)
+    #load_dotenv(override=True)
     
-    sender_email = st.secrets["SMTP_EMAIL"]
-    password_raw = st.secrets["SMTP_PASSWORD", ""]
+    sender_email = st.secrets.get("SMTP_EMAIL")
+    password_raw = st.secrets.get("SMTP_PASSWORD", "")
     sender_password = password_raw.replace(" ", "") # Remove spaces from App Password
     
-    smtp_server = st.secrets["SMTP_SERVER", "smtp.gmail.com"]
-    smtp_port = int(st.secrets["SMTP_PORT", 587])
-    receiver_email = "mujtabashaikh025@gmail.com"
+    smtp_server = st.secrets.get("SMTP_SERVER", "smtp.gmail.com")
+    smtp_port = int(st.secrets.get("SMTP_PORT", 587))
+    receiver_email = "mujtabashaikh025@gmail.com""mujtabashaikh025@gmail.com"
 
     # Construct Message
     subject = f"New Booking: {guest_info.get('Last_Name')} - Room {guest_info.get('Room_Number')}"
